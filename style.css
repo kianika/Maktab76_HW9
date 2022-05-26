@@ -26,18 +26,7 @@
     border-radius: 50%;
     background-color: lightgreen;
 }
-.tasks{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    background-color: white;
-    position: absolute;
-    left: 50%;
-    top: 85%;
-    width: 69%;
-    height: 20%;
-    display: flex;
-}
+
 .addtask{
    margin-bottom: 0 !important;
 }
@@ -50,7 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #786DD9;
+    background-color: #5649CF;
 }
 
 
@@ -60,9 +49,6 @@
    
 }
 
-.row2{
-    padding: 5rem 8rem 2rem 8rem;
-}
 
 .btn-outline-primary{
     border-color: #786DD9 !important;
@@ -81,7 +67,7 @@
     width: 9rem;
     height: 9rem;
     border-radius: 50%;
-    background-color: #5649CF;
+    background-color: #786DD9;
     position: absolute;
     top: -3rem;
     left: -0.5rem;
@@ -90,14 +76,28 @@
 .box-facebook{
     background-color: white;
     position: absolute;
-    left: 63%;
-    top: -10%;
-    width: 65%;
+    left: 61%;
+    top: -6%;
+    width: 45%;
+    
+}
+
+.tasks{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 73%;
+    width: 59%;
+    height: 22%;
+    display: flex;
 }
 
 .m-title h5{
-    padding-top: 12rem;
-    padding-bottom: 25rem;
+    margin-top: 9rem;
+    padding-bottom: 1rem;
 }
 
 .photo{
@@ -118,9 +118,10 @@
     top: 4rem;
 }
 
-.dolor{
+.dolor-container{
     background-image: url("images/bac.jpg");
-    
+    padding: 0;
+    margin: 0;
 }
 
 hr{
@@ -141,31 +142,52 @@ hr{
  
   
  
-  .temp {
+  .icon {
     width: 2rem;
     height: 2rem;
     color: #0bc727;
     background-color: white;
     border-radius: 50%;
     border: 1px solid #0bc727;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
   }
 
 
 
   .bordered {
-    
-        width: 290px;
+       width: 290px;
         height: 120px;
         /* dashed border */
         background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23D0CDCDFF' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");");
      
+  }
+
+  .ft{
+      font-size: 0.9rem;
+      color:  rgb(162, 158, 158);
+      text-shadow: #202020;
   }
   
   
   
  @media (min-device-width: 320px) and (max-device-width: 578px){
    .first .card-title{
-        font-size: 1.5rem;
+        font-size: 1.5rem !important;
+    }
+    .box{
+        width: 75vw;
+        height: 60vh;
+        position: relative;
+    }
+    .box-facebook{
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        top: -6%;
+        width: 62%;  
     }
  }  
  
@@ -182,7 +204,7 @@ hr{
 
 @media (min-width: 768px) { 
    .first .card-title{
-        font-size: 3rem;
+        font-size: 2.5rem !important;
     }
     .fifth .card-title{
         font-size: 1.7rem !important;
@@ -198,14 +220,14 @@ hr{
     }
     .second .h2, .fourth .card-title, .furth{
         font-size: 2.2rem !important;
-}
-.fifth .card-title{
-    font-size: 2rem !important;
-}
-.third p{
-    font-size: 1rem;
-}
-}
+    }
+    .fifth .card-title{
+        font-size: 2rem !important;
+    }
+    .third p{
+        font-size: 1rem;
+    }
+    }
 
 @media (min-width: 1200px) { 
     .first .card-title{
@@ -221,7 +243,7 @@ hr{
         font-size: 1.9rem !important;
     }
    .dolor .dolor-right{
-        padding: 1rem 2rem 0 0;
+        padding: 1rem 9rem 0 0;
         text-align: left;
     }
  }
