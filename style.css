@@ -142,9 +142,19 @@ hr{
    border: 3px solid #0bc727;
   }
 
-  .dotted{
-      border: 1px dashed #565656;
+
+
+  .bordered {
+    
+        width: 290px;
+        height: 120px;
+        /* dashed border */
+        background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23D0CDCDFF' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");");
+     
   }
+  
+  
+  
  @media (min-device-width: 320px) and (max-device-width: 578px){
    .first .card-title{
         font-size: 1.5rem;
