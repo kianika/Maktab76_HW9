@@ -20,6 +20,28 @@
     color: #211222;
 }
 
+.r-tasks{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: lightgreen;
+}
+.tasks{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    width: 69%;
+    height: 20%;
+    display: flex;
+}
+.addtask{
+   margin-bottom: 0 !important;
+}
+
 .circle{
     width: 3rem;
     height: 3rem;
@@ -120,26 +142,34 @@ hr{
   
  
   .fa-facebook {
+    width: 0.7rem;
+    height: 0.7rem;
     color: #0bc727;
     background-color: white;
     border-radius: 50%;
     border: 1px solid #0bc727;
+
   }
   
 
   .fa-twitter {
-
+   width: 0.7rem;
+   height: 0.7rem;
    color: #0bc727;
    background-color: white;
    border-radius: 50%;
    border: 1px solid #0bc727;
+ 
   }
 
   .fa-linkedin {
+    width: 0.7rem;
+    height: 0.7rem;
    color: #0bc727;
    background-color: white;
    border-radius: 50%;
-   border: 3px solid #0bc727;
+   border: 1px solid #0bc727;
+
   }
 
 
