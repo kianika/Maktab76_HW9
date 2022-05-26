@@ -202,5 +202,9 @@ hr{
     .fifth .card-title{
         font-size: 1.9rem !important;
     }
+   .dolor .dolor-right{
+        padding: 1rem 2rem 0 0;
+        text-align: left;
+    }
  }
 
