@@ -1,0 +1,206 @@
+.collapse > ul > li> a, form > a{
+    color: #202020 !important;
+    margin: 0 3rem;
+    
+ }
+ .btn-dark{
+     border-radius: 0 !important;
+ }
+
+ .first .card-title{
+     font-size: 4rem !important;
+ }
+
+.icon-box{
+    font-size: 1.3rem;
+    color: #565656;
+}
+.icon-box .rbs{
+    font-size: 1.3rem;
+    color: #211222;
+}
+
+.circle{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #786DD9;
+}
+
+
+
+.third .card-text, .furth .card-text{
+    font-size: 0.9rem;
+   
+}
+
+.row2{
+    padding: 5rem 8rem 2rem 8rem;
+}
+
+.btn-outline-primary{
+    border-color: #786DD9 !important;
+    color: #786DD9 !important;
+    border-radius: 0 !important;
+    width: 9rem !important;
+}
+
+.box{
+    width: 40vw;
+    height: 50vh;
+    position: relative;
+}
+
+.b-circle{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    background-color: #5649CF;
+    position: absolute;
+    top: -3rem;
+    left: -0.5rem;
+}
+
+.box-facebook{
+    background-color: white;
+    position: absolute;
+    left: 63%;
+    top: -10%;
+    width: 65%;
+}
+
+.m-title h5{
+    padding-top: 12rem;
+    padding-bottom: 25rem;
+}
+
+.photo{
+    background-image: url("images/1.PNG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.l-circle{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    border: 0.2rem solid black;
+    background-color: white;
+    position: absolute;
+    left: -3rem;
+    top: 4rem;
+}
+
+.dolor{
+    background-image: url("images/bac.jpg");
+    
+}
+
+hr{
+    height:3px !important;
+    border-width:10 !important;
+    color:white !important;
+    background-color: white !important;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+ 
+  
+ 
+  .fa-facebook {
+    color: #0bc727;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #0bc727;
+  }
+  
+
+  .fa-twitter {
+
+   color: #0bc727;
+   background-color: white;
+   border-radius: 50%;
+   border: 1px solid #0bc727;
+  }
+
+  .fa-linkedin {
+   color: #0bc727;
+   background-color: white;
+   border-radius: 50%;
+   border: 3px solid #0bc727;
+  }
+
+  .dotted{
+      border: 1px dashed #565656;
+  }
+ @media (min-device-width: 320px) and (max-device-width: 578px){
+   .first .card-title{
+        font-size: 1.5rem;
+    }
+ }  
+ 
+
+@media (min-device-width: 576px) { 
+   .first .card-title{
+        font-size: 2rem;
+    }
+    .fifth .card-title{
+        font-size: 1.5rem !important;
+    }
+ }
+
+
+@media (min-width: 768px) { 
+   .first .card-title{
+        font-size: 3rem;
+    }
+    .fifth .card-title{
+        font-size: 1.7rem !important;
+    }
+ 
+}
+
+
+@media (min-width: 992px) {
+    .first .card-title{
+        font-size: 3.5rem;
+    
+    }
+    .second .h2, .fourth .card-title, .furth{
+        font-size: 2.2rem !important;
+}
+.fifth .card-title{
+    font-size: 2rem !important;
+}
+.third p{
+    font-size: 1rem;
+}
+}
+
+@media (min-width: 1200px) { 
+    .first .card-title{
+        font-size: 4rem;
+    }
+    .second .h2, .fourth .card-title, .furth{
+        font-size: 2.6rem !important;
+    }
+     .third p{
+        font-size: 1.3rem;
+    }
+    .fifth .card-title{
+        font-size: 1.9rem !important;
+    }
+ }
+
