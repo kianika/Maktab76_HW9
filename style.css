@@ -78,8 +78,7 @@
     position: absolute;
     left: 61%;
     top: -6%;
-    width: 45%;
-    
+    width: 45%;  
 }
 
 .tasks{
@@ -100,12 +99,6 @@
     padding-bottom: 1rem;
 }
 
-.photo{
-    background-image: url("images/1.PNG");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 .l-circle{
     width: 0.8rem;
@@ -137,12 +130,12 @@ hr{
     width: 50px;
     text-align: center;
     text-decoration: none;
-  }
+}
   
  
   
  
-  .icon {
+.icon {
     width: 2rem;
     height: 2rem;
     color: #0bc727;
@@ -153,23 +146,21 @@ hr{
     align-items: center;
     justify-content: center;
     margin-right: 1rem;
+}
+
+
+
+.bordered {
+    width: 290px;
+    height: 120px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23D0CDCDFF' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e"); 
   }
 
-
-
-  .bordered {
-       width: 290px;
-        height: 120px;
-        /* dashed border */
-        background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23D0CDCDFF' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
-     
-  }
-
-  .ft{
-      font-size: 0.9rem;
-      color:  rgb(162, 158, 158);
-      text-shadow: #202020;
-  }
+.ft{
+    font-size: 0.9rem;
+    color:  rgb(162, 158, 158);
+    text-shadow: #202020;
+}
   
   
   
@@ -189,6 +180,13 @@ hr{
         top: -6%;
         width: 62%;  
     }
+    
+    .furth{
+        font-size: 1.2rem !important;
+        padding-top: 20px !important;
+        margin: 0 !important;
+    }
+ 
  }  
  
 
@@ -196,7 +194,7 @@ hr{
    .first .card-title{
         font-size: 2rem;
     }
-    .fifth .card-title{
+    .fifth .card-title, .furth{
         font-size: 1.5rem !important;
     }
  }
@@ -206,10 +204,10 @@ hr{
    .first .card-title{
         font-size: 2.5rem !important;
     }
-    .fifth .card-title{
+    .fifth .card-title, .furth{
         font-size: 1.7rem !important;
     }
- 
+
 }
 
 
@@ -245,6 +243,9 @@ hr{
    .dolor .dolor-right{
         padding: 1rem 9rem 0 0;
         text-align: left;
+    }
+    .dolor .dolor-left{
+        padding: 0 0 0 2rem;
     }
  }
 
