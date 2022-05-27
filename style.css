@@ -192,7 +192,7 @@ hr{
 
 @media (min-device-width: 576px) { 
    .first .card-title{
-        font-size: 2rem;
+        font-size: 2rem !important;
     }
     .fifth .card-title, .furth{
         font-size: 1.5rem !important;
@@ -213,7 +213,7 @@ hr{
 
 @media (min-width: 992px) {
     .first .card-title{
-        font-size: 3.5rem;
+        font-size: 3.5rem !important;
     
     }
     .second .h2, .fourth .card-title, .furth{
@@ -229,7 +229,7 @@ hr{
 
 @media (min-width: 1200px) { 
     .first .card-title{
-        font-size: 4rem;
+        font-size: 4rem !important;
     }
     .second .h2, .fourth .card-title, .furth{
         font-size: 2.6rem !important;
